@@ -5,6 +5,7 @@ using FTOptix.HMIProject;
 using FTOptix.NetLogic;
 using System.Collections.Generic;
 using System.Reflection;
+using FTOptix.Recipe;
 #endregion
 
 public class MatrixEditorUpdater : BaseNetLogic

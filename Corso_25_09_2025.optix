@@ -105,16 +105,24 @@ Project:
    Uri: 'urn:FTOptix:ODBCStore:Net'
    Module: FTOptix.ODBCStore.Net
    Version: 2.0
+  27:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 703
-  Objects: 177
+  TotalNodeCount: 1268
+  Objects: 275
   ObjectTypes: 11
-  Variables: 514
+  Variables: 972
   VariableTypes: 0
   DataTypes: 0
-  Methods: 1
-  References: 45
+  Methods: 10
+  References: 62
   ReferenceTypes: 0
-  Files: 27
+  Files: 28
  Nodes:
  - File: Nodes/Corso_25_09_2025.yaml

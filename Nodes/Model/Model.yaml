@@ -4,13 +4,8 @@ Children:
 - Name: Variable1
   Type: BaseDataVariableType
   DataType: Int32
-  Children:
-  - Name: DynamicLink
-    Type: DynamicLink
-    DataType: NodePath
-    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ModbusTag1"
-    Children:
-    - Name: Mode
-      Type: BaseVariableType
-      DataType: DynamicLinkMode
-      Value: 2
+- Name: Matrice
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [10,2]

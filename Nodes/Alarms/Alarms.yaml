@@ -14,6 +14,18 @@ Children:
     Id: g=33d96e7495418a891733374a68383354
     Type: BaseDataVariableType
     DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=cee1a6f5ddfc76e8531d3432980e581c
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable3"
+      Children:
+      - Name: Mode
+        Id: g=d7d2aad5e954a250eef28d32c9fab091
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
   - Name: LastEvent
     Id: g=e7faad5b88bc8ec01a9ac54896d18187
     Type: BaseDataVariableType

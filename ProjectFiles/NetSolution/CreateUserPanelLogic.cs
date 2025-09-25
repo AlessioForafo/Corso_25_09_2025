@@ -7,6 +7,7 @@ using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
 using FTOptix.Alarm;
+using FTOptix.OPCUAClient;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

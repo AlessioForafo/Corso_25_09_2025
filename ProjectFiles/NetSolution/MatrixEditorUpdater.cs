@@ -8,6 +8,8 @@ using System.Reflection;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class MatrixEditorUpdater : BaseNetLogic

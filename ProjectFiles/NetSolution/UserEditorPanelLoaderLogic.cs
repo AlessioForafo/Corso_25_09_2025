@@ -4,6 +4,7 @@ using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.OPCUAServer;
 using FTOptix.Alarm;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class UserEditorPanelLoaderLogic : BaseNetLogic

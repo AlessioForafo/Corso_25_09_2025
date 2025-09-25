@@ -1,10 +1,13 @@
 Name: Model
+Id: g=63f3408e0a0140a562acfaca7e8acf78
 Type: ModelCategoryFolder
 Children:
 - Name: Variable1
+  Id: g=1d94d7493f66ab1ef59891817e5c6c02
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Matrice
+  Id: g=bd17cd34a188acd0e4d3df32bac353e6
   Type: BaseDataVariableType
   DataType: Int32
   ValueRank: 2
@@ -17,8 +20,86 @@ Children:
   ValueRank: OneDimension
   ArrayDimensions: [10]
 - Name: VarCambiamento
+  Id: g=feac7f402f57d9b061174090e55c14f5
   Type: BaseDataVariableType
   DataType: Int32
 - Name: VarAzione
+  Id: g=3d9b02a0db2d3eb24fe0a01bbe5eab0a
   Type: BaseDataVariableType
   DataType: Int32
+- Name: Variable2
+  Id: g=c31353d354a832a15a1f48d3681c7b9d
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 1234.5677490234375
+- Name: Temperature
+  Id: g=e67d04799b756b100e2eaf45500463af
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 25.0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=7265519ee8368f29d5ce3ae47933535a
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=875407a9af36f69899884bf7fa2d7816
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=a74d174f70892bfa515064daed7f1e62
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=1563772b89daf906790549e240f9243b
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: AnalogVariable1
+  Id: g=28dab4dda5e96f85fcd8ec6154b8c1db
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=fa9c6ca5b11803d1d7c598fc7e17813a
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=fb28db808a94b16dabedd9737abb2fa6
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Id: g=5b3f998fc0d400d4bc7e6e983cb2cd78
+      Type: BaseDataVariableType
+      DataType: Double
+- Name: liters
+  Id: g=21f907440addd8006c099b62ccad648d
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=e5aae70a27a692a008aaf4dc3e007bbf
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=2d28af0dffa3325645eac6477134e9ee
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4535090
+    - Name: DisplayName
+      Id: g=8d14d06f1a3577fbe98734818ecaae1f
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=7ae98ad1ce926a4cb204402e61763b69
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: Variable3
+  Id: g=e91b213f1ff6f7073d5b68bb3288b9ca
+  Type: BaseDataVariableType
+  DataType: Boolean

@@ -5,6 +5,8 @@ using FTOptix.NetLogic;
 using FTOptix.Recipe;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class PeriodicActionLogic : BaseNetLogic

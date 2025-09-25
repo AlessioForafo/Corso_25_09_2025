@@ -5,6 +5,8 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using UAManagedCore;
 using FTOptix.Alarm;
+using FTOptix.OPCUAServer;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class DeleteUserButtonLogic : BaseNetLogic

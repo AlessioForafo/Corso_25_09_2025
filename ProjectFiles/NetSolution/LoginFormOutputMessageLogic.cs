@@ -9,6 +9,7 @@ using FTOptix.UI;
 using FTOptix.OPCUAServer;
 using FTOptix.WebUI;
 using FTOptix.Alarm;
+using FTOptix.OPCUAClient;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic

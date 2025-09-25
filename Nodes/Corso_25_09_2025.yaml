@@ -9,7 +9,7 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
@@ -28,25 +28,34 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
+    Value: 10
   - Name: EnforcePasswordHistory
     Type: BaseDataVariableType
     DataType: Byte
-    Value: 1
+    Value: 5
   - Name: MinimumPasswordAge
     Type: BaseDataVariableType
     DataType: UInt16
+    Value: 2
   - Name: MinimumPasswordLength
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
   Type: PropertyGroup
+  Children:
+  - Name: AlarmsCollectionEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml

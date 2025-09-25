@@ -10,6 +10,8 @@ using FTOptix.NetLogic;
 using FTOptix.Recipe;
 using FTOptix.UI;
 using UAManagedCore;
+using FTOptix.WebUI;
+using FTOptix.Alarm;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

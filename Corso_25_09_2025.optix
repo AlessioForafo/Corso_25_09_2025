@@ -97,14 +97,6 @@ Project:
    Uri: 'urn:FTOptix:Modbus:Net'
    Module: FTOptix.Modbus.Net
    Version: 1.0
-  25:
-   Uri: 'urn:FTOptix:ODBCStore'
-   Module: FTOptix.ODBCStore
-   Version: 3.0
-  26:
-   Uri: 'urn:FTOptix:ODBCStore:Net'
-   Module: FTOptix.ODBCStore.Net
-   Version: 2.0
   27:
    Uri: 'urn:FTOptix:Recipe'
    Module: FTOptix.Recipe
@@ -113,16 +105,32 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  30:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
+  31:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  32:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 1268
-  Objects: 275
-  ObjectTypes: 11
-  Variables: 972
+  TotalNodeCount: 2876
+  Objects: 583
+  ObjectTypes: 27
+  Variables: 2247
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 62
+  Methods: 19
+  References: 99
   ReferenceTypes: 0
-  Files: 28
+  Files: 31
  Nodes:
  - File: Nodes/Corso_25_09_2025.yaml

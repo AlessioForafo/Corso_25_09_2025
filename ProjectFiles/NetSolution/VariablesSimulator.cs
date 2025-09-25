@@ -5,6 +5,8 @@ using FTOptix.NetLogic;
 using FTOptix.SQLiteStore;
 using FTOptix.ODBCStore;
 using FTOptix.Recipe;
+using FTOptix.WebUI;
+using FTOptix.Alarm;
 #endregion
 
 public class VariablesSimulator : BaseNetLogic

@@ -10,3 +10,15 @@ Children:
   ValueRank: 2
   ArrayDimensions: [10,2]
 - File: VariabiliRicetta/VariabiliRicetta.yaml
+- Name: Allarmi
+  Id: g=b0aacc2b0a0f0b3e98ab300279d0152f
+  Type: BaseDataVariableType
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+- Name: VarCambiamento
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarAzione
+  Type: BaseDataVariableType
+  DataType: Int32

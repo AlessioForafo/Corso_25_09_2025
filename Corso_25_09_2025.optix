@@ -122,14 +122,14 @@ Project:
    Module: FTOptix.Alarm.Net
    Version: 1.2
  Statistics:
-  TotalNodeCount: 2876
-  Objects: 583
+  TotalNodeCount: 2997
+  Objects: 603
   ObjectTypes: 27
-  Variables: 2247
+  Variables: 2344
   VariableTypes: 0
   DataTypes: 0
-  Methods: 19
-  References: 99
+  Methods: 23
+  References: 198
   ReferenceTypes: 0
   Files: 31
  Nodes:

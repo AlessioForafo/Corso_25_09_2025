@@ -130,15 +130,15 @@ Project:
    Module: FTOptix.OPCUAServer.Net
    Version: 1.2
  Statistics:
-  TotalNodeCount: 3168
-  Objects: 631
-  ObjectTypes: 27
-  Variables: 2487
+  TotalNodeCount: 3260
+  Objects: 647
+  ObjectTypes: 28
+  Variables: 2561
   VariableTypes: 0
   DataTypes: 0
-  Methods: 23
-  References: 203
+  Methods: 24
+  References: 204
   ReferenceTypes: 0
-  Files: 31
+  Files: 33
  Nodes:
  - File: Nodes/Corso_25_09_2025.yaml

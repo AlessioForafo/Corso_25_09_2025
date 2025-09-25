@@ -49,4 +49,18 @@ public class RuntimeNetLogic1 : BaseNetLogic
     {
         Log.Info(testoMessaggio);
     }
+
+    [ExportMethod]
+    public void CambioColoreRectScreen6()
+    {
+        var rect = InformationModel.Make<Rectangle>("MioRettangolo");
+        rect.Width = 100;
+        rect.Height = 100;
+        rect.FillColor = Colors.Lime;
+        rect.HorizontalAlignment = HorizontalAlignment.Right;
+        Project.Current.Get("UI/Screens/Screen6").Add(rect) ;
+
+        var rettangolo = Project.Current.Get<Rectangle>("UI/Screens/Screen6/Rectangle2");
+        rettangolo.FillColor = Colors.Yellow;
+    }
 }
